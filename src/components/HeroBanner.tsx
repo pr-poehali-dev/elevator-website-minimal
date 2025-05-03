@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1578849278619-e73505e9610f?q=80&w=2070')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1567498952659-9d622c4a8076?q=80&w=2070')",
           filter: "brightness(0.5)" 
         }}
       ></div>
