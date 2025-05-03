@@ -34,6 +34,21 @@ const ProductCard = ({ title, description, image }: ProductCardProps) => {
 const ProductSection = () => {
   const products = [
     {
+      title: "Тельферы Болгария",
+      description: "Надежные европейские тельферы с грузоподъемностью от 1 до 10 тонн",
+      image: "https://images.unsplash.com/photo-1582693567340-f0ef969a1fd7?q=80&w=2070"
+    },
+    {
+      title: "Тельферы Россия",
+      description: "Отечественные тельферы с высокой устойчивостью к низким температурам",
+      image: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=2071"
+    },
+    {
+      title: "Тельферы КНР",
+      description: "Экономичные решения для подъема грузов с обширной линейкой моделей",
+      image: "https://images.unsplash.com/photo-1588738596295-a05cce96823b?q=80&w=2070"
+    },
+    {
       title: "ЭлеваПро-1000",
       description: "Грузоподъемность 1000 кг, высота подъема до 150 м",
       image: "https://images.unsplash.com/photo-1635533370663-ef0d4151ad8f?q=80&w=2070"
@@ -57,7 +72,7 @@ const ProductSection = () => {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Наша продукция</h2>
             <p className="text-zinc-400 max-w-xl">
-              Линейка одномачтовых подъемников для различных задач и условий эксплуатации
+              Линейка тельферов и подъемников для различных задач и условий эксплуатации
             </p>
           </div>
           <Button className="mt-4 md:mt-0">
